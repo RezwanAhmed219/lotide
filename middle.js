@@ -28,7 +28,7 @@ const middle = function(array) {
   let middleArr = [];
   let middleAvg = Math.floor(array.length/2);
 
-  if (array.length <3) {
+  if (array.length < 3) {
     middleArr = [];
   } else if (array.length % 2 !== 0) {
     middleArr = [array[middleAvg]];
